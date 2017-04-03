@@ -7,6 +7,7 @@
 * you need to change the database connection in the config.php (in “www” folder);
 
 the login to the cms: ana
+
 the pass to the cms: 111
 
 To see the database you can use hostname/adminer.php (easier to navigate than via phpMyAdmin).
