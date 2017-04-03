@@ -1,4 +1,4 @@
-###To setup this project you need:
+### To setup this project you need:
 
 * to have a virtual host;
 * to update the composer (it can be done through the terminal with “composer update”) which will create a “vendor” folder and should go inside the “www” folder;
