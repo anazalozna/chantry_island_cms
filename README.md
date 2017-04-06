@@ -4,7 +4,7 @@
 * the database file is in “www/assets/working_files/chantry_db.sql”;
 * you also need apache2 web server, php7, PDO module, and mod_rewrite module;
 * you need to change the database connection in the config.php (in “www” folder);
-* to update the composer (it can be done through the terminal with “composer update”); --> for this project, vendor folder is included, but you might need to update it still
+* to update the composer (it can be done through the terminal with “composer update”); --> for this project, vendor folder with its dependencies is included, but you might need to update it still
 
 **The login** to the cms: ana
 
