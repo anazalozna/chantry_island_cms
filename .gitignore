@@ -1,6 +1,5 @@
 .idea
 logs
 node_modules
-www/vendor
 /docker-compose.yml
 /Dockerfile

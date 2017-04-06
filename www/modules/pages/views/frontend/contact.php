@@ -41,7 +41,9 @@
         </div>
         <div id="map_box"></div>
     <?php else: ?>
-        <h2>Success</h2>
+        <div class="wrapper_small email_sent">
+            <h2 class="title_h2">Your email was sent successfully. Thank You!</h2>
+        </div>
     <?php endif;?>
 </section>
 

@@ -46,7 +46,7 @@ ul { padding: 0; margin: 0; list-style: none; }
 
 .bottom { bottom: 0; }
 
-.center, .top_panel, .welcome_block, .footer, .promo_flex .flex_item, .email_block, .partners_flex .flex_item.hovereffect, .welcome_block_inner, .about_block .about_flex .flex_item .title_h2, .news_message, .events_message, .restor_message, .volunt_message, .tour_message, .sc_rates_message, .donate_message, .contact_message, .gallery_message, .articles_flex .news_item .news_img, .restor_block .title_h2, .restor_flex .restor_img, .volunt_block .volunt_flex .flex_item, .gallery_block .gallery_box, .popup_bg_dark .popup_window .popup_img { text-align: center; }
+.center, .top_panel, .welcome_block, .footer, .promo_flex .flex_item, .email_block, .partners_flex .flex_item.hovereffect, .welcome_block_inner, .about_block .about_flex .flex_item .title_h2, .news_message, .events_message, .restor_message, .volunt_message, .tour_message, .sc_rates_message, .donate_message, .contact_message, .gallery_message, .articles_flex .news_item .news_img, .restor_block .title_h2, .restor_flex .restor_img, .volunt_block .volunt_flex .flex_item, .gallery_block .gallery_box, .popup_bg_dark .popup_window .popup_img, .email_sent h2 { text-align: center; }
 
 .title_h2 { font-size: 2.1em; color: #d42a2a; }
 
@@ -310,11 +310,17 @@ ul.marked li:before { content: "\f00c"; font-family: FontAwesome; margin-right: 
 
 .bg_404 { background: url(../img/404.jpg) no-repeat; background-size: cover; }
 
-.page_404 { margin-top: 40px; }
+.main_404 { position: relative; height: 300px; color: #fff; }
 
-.page_404 h2 { margin-top: 20px; font-size: 2.3em; text-align: center; }
+.page_404 { margin-top: 40px; text-align: center; }
 
-.content_main { background-color: rgba(0, 0, 0, 0.9); z-index: 0; overflow: auto; }
+.page_404 h2 { margin-bottom: 20px; font-size: 2.3em; }
+
+.page_404 h3 { font-size: 1.9em; }
+
+.page_404 h3 i { font-size: 1em; }
+
+.content_main { background-color: rgba(0, 0, 0, 0.85); z-index: 0; overflow: auto; }
 
 .popup_bg_dark { background: rgba(0, 0, 0, 0.8); width: 100%; height: 100%; position: fixed; z-index: 99; top: 0; left: 0; display: none; }
 
@@ -333,6 +339,8 @@ ul.marked li:before { content: "\f00c"; font-family: FontAwesome; margin-right: 
 .popup_bg_dark .popup_window .gal_next { right: 25px; }
 
 .popup_bg_dark .popup_window .popup_img img { max-height: 500px; }
+
+.email_sent h2 { margin: 20px 0 40px !important; }
 
 @media only screen and (max-width: 500px) { body { background-size: initial; }
   .login_main { text-align: center; } }
